@@ -1,0 +1,27 @@
+body {
+    font-family: monaco;
+    background-color: #161719;
+    color:#cccccc
+}
+
+.container {
+    width: 30%;
+    margin:0 auto;
+    padding:0 1em;
+}
+
+#about{
+    color:white;
+}
+
+footer{
+    margin-left: -3em;
+}
+
+footer img{
+    width: 500pt;
+}
+
+header img{
+    width:100%;
+}

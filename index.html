@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MMP 210 Classwork</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <p>
+            <img src="img/title.png" alt="title">
+        </p>
+    </header>
+    <p id="about"> デフコン案内サイトへようこそ。<br>
+        アメリカ、 ラスベガスで開催され、 オタクBBQなとが楽しめる4日間のイベントとなっています。<br><br>
+        私たちは同じ目的をもった日本のオタクたちをを集めエスコートし、 <br>
+        みなさまがデフコンを安心して楽しめるようになることを目的としています。 <br>
+        興味のある方は defucon.jp@gmail.com まで 「デフコン参加希望」との件名で空メールを送ってください。</p>
+    <footer>
+         <a onclick="myAudioFunction('A');">
+             <img src="img/footer.gif" alt="footer_image">
+         </a>
+         <script>
+             var aAudio = new Audio('thrift_shop.mp3');
+             function myAudioFunction(letter) {
+                 if(letter == 'A') {
+                     aAudio.play();
+                 } else if(letter == 'b') {
+                     bAudio.play();
+                 }
+             }
+        </script>
+    </footer>
+    </div>
+</body>
+</html>
